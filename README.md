@@ -40,7 +40,7 @@ graph TD
 * **トリプルセンサー・フュージョン**:
   `TYPE_LINEAR_ACCELERATION`（重力を除いた純粋な動き）、`TYPE_GRAVITY`（重力方向）、`TYPE_MAGNETIC_FIELD`（地磁気）の3つのセンサーデータを常時監視。
 * **Roll角（左右の傾き）の平滑化（ローパスフィルタ）**:
-  センサー固有の細かなノイズや手ブレを排除するため、次式の**1次ローパスフィルタ（LPF）**を適用し、バットの構え（角度）の滑らかな描画を実現。
+  センサー固有の細かなノイズや手ブレを排除するため、次式の**1次ローパスフィルタ（LPF）**　を適用し、バットの構え（角度）の滑らかな描画を実現。
   
   $$\text{filteredRoll} = \alpha \cdot \text{roll} + (1 - \alpha) \cdot \text{filteredRoll} \quad (\alpha = 0.1)$$
   
