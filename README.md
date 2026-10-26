@@ -10,7 +10,9 @@
 
 *※以下のデモ映像は、OBS Studioにてキャプチャ後、公式ドキュメントに基づき FFmpeg のCRF（Constant Rate Factor）パラメータを最適化調整し、画質を完全に維持したままGitHubマウント用に極限までファイルサイズをネットワーク圧縮したものである。*
 
+* **[👉 バッティングゲームデモ動画（mp4）を再生する](https://github.com/yabusan2-dot/BattingGame/issues/1)**
 
+---
 
 🏗️ システムアーキテクチャ・3大拠点ネットワーク
 
