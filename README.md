@@ -17,8 +17,8 @@
 本システムは、独立した3つのコンポーネントがネットワーク（WebSocket）を介して緊密に連携する、分散型のトポロジーを採用している。
 ```mermaid
 graph TD
-    A[📱 Android Java Controller<br>線形加速度/重力/磁気センサー] -- ws: 16.6ms周期ストリーム --> B[⚙️ Node.js WebSocket Server<br>独自フレーム解析・ルーム分配]
-    C[💻 HTML5/JS Viewer<br>空間パース・打球物理演算] -- ws: ルーム生成/初期化 --> B
+    A[📱 Android Java Controller<br>加速/重力/磁気センサー] -- ws: 16.6ms周期ストリーム --> B[⚙️ Node.js WebSocket Server<br>フレーム解析・ルーム分配]
+    C[💻 HTML5/JS Viewer<br>空間パース・物理演算] -- ws: ルーム生成/初期化 --> B
     B -- 3軸センサーデータ中継 --> C
 ```
 
